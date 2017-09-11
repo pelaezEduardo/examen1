@@ -1,11 +1,12 @@
-
 package gt.edu.url.examen1;
 
 
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
 import gt.edu.url.examen1.api.Demo;
 import gt.edu.url.examen1.impl.DemoImpl;
-import org.junit.Test;
-import static org.junit.Assert.*;
 
 /**
  *

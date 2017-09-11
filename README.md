@@ -1,3 +1,3 @@
-#  mavenproject1
+#  Examen parcial 1
 
-Add instructions for project developers here.
+En este espacio ud. debera resolver su examen parcial no. 1

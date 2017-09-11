@@ -7,7 +7,7 @@ package gt.edu.url.examen1.impl;
 public class Main {
     
     public static void main(String[] args) {
-        System.out.println("Examen 1");
+        System.out.println("Examen 2");
     }
     
 }
