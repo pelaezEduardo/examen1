@@ -6,9 +6,7 @@
 package gt.edu.url.examen1;
 
 import gt.edu.url.examen1.api.Chudnovsky;
-import gt.edu.url.examen1.api.Demo;
 import gt.edu.url.examen1.impl.ChudnovskyImpl;
-import gt.edu.url.examen1.impl.DemoImpl;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
