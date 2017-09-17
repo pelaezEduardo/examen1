@@ -32,7 +32,6 @@ public class ReporteroUnitTest {
         
     }
     
-    
     @Test
     public void testInvalidScores() {
         Reportero repo = new ReporteroImpl();
@@ -44,6 +43,26 @@ public class ReporteroUnitTest {
         assertNotEquals("B", repo.calcularGanador(0, 21));
         assertNotEquals("B", repo.calcularGanador(0, 7));
         assertNotEquals("B", repo.calcularGanador(1, 5));
+    }
+    
+    
+    @Test
+    public void testCampeonato() {
+        Reportero repo = new ReporteroImpl();
+        //Resultados validos
+        repo.calcularGanador(7, 5);
+        repo.calcularGanador(6, 7);
+        repo.calcularGanador(3, 6);
+        repo.calcularGanador(1, 6);
+        //B es el campeon
+        assertEquals(repo.calcularCampeon(), "B");
+        
+        repo.calcularGanador(6, 2);
+        repo.calcularGanador(6, 1);
+        
+        //Empate, no hay ganador
+        assertNotEquals(repo.calcularCampeon(), "B");
+        
         
     }
 }
