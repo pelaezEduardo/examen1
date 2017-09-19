@@ -7,7 +7,19 @@ package gt.edu.url.examen1.impl;
 public class Main {
     
     public static void main(String[] args) {
-        System.out.println("Examen 2");
+        FabricaRangerImpl fabrica = new FabricaRangerImpl();
+        
+        //Ingeniero su examen estaba monstruoso
+        Monstruo m1 = fabrica.fabricar("FUEGO");
+        m1.setNombre("Victor");
+        m1.setEdad(29);
+        m1.setColor("Tostado");
+        
+        fabrica.encolar(m1);
+        fabrica.apilar(m1);
+        
+        
+        
     }
     
 }
