@@ -20,6 +20,9 @@ public class Main {
         
         
         
+        System.out.println("Examen 2");
+        ChudnovskyImpl chud = new ChudnovskyImpl();
+        System.out.println(chud.calcularPi(3));
     }
     
 }
